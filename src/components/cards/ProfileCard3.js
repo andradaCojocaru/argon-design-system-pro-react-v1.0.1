@@ -11,11 +11,11 @@ function ProfileCard3() {
       <Card className="card-profile" data-image="img-raised">
         <div className="card-header-image">
           <a href="#pablo" onClick={(e) => e.preventDefault()}>
-            <img
+            {/* <img
               alt="..."
               className="img"
               src={require("assets/img/faces/alejandro-escamilla.jpg")}
-            ></img>
+            ></img> */}
           </a>
           <CardTitle className="text-white" tag="div">
             Austin Johnson

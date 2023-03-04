@@ -12,7 +12,6 @@ import Header4 from "components/headers/Header4.js";
 import Feature6 from "components/features/Feature6.js";
 import Feature1 from "components/features/Feature1.js";
 import Blogs2 from "components/blogs/Blogs2.js";
-import Pricing5 from "components/pricings/Pricing5.js";
 
 function LandingPage() {
   React.useEffect(() => {
@@ -33,7 +32,7 @@ function LandingPage() {
         <Blogs2 />
         <br></br>
         <br></br>
-        <Pricing5 />
+        {/* <Pricing5 /> */}
         <DemoFooter />
       </div>
     </>

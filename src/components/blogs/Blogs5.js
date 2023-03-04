@@ -43,11 +43,11 @@ function Blogs5() {
                       </p>
                       <CardFooter>
                         <div className="author">
-                          <img
+                          {/* <img
                             alt="..."
                             className="avatar img-raised"
                             src={require("assets/img/faces/team-3.jpg")}
-                          ></img>
+                          ></img> */}
                           <span>Mike John</span>
                         </div>
                         <div className="stats stats-right opacity-8">
@@ -80,11 +80,11 @@ function Blogs5() {
                       </p>
                       <CardFooter>
                         <div className="author">
-                          <img
+                          {/* <img
                             alt="..."
                             className="avatar img-raised"
                             src={require("assets/img/faces/team-2.jpg")}
-                          ></img>
+                          ></img> */}
                           <span>Jona Zmud</span>
                         </div>
                         <div className="stats stats-right opacity-8">
@@ -117,11 +117,11 @@ function Blogs5() {
                       </p>
                       <CardFooter>
                         <div className="author">
-                          <img
+                          {/* <img
                             alt="..."
                             className="avatar img-raised"
                             src={require("assets/img/faces/team-5.jpg")}
-                          ></img>
+                          ></img> */}
                           <span>Marc Oliver</span>
                         </div>
                         <div className="stats stats-right opacity-8">

@@ -57,11 +57,11 @@ function Testimonials3() {
                           be my garden... a single friend, my world."
                         </p>
                         <div className="author">
-                          <img
+                          {/* <img
                             alt="..."
                             className="avatar img-raised"
                             src={require("assets/img/faces/team-1.jpg")}
-                          ></img>
+                          ></img> */}
                           <span>Andrew Lino</span>
                         </div>
                       </div>
@@ -77,11 +77,11 @@ function Testimonials3() {
                           to be an art."
                         </p>
                         <div className="author">
-                          <img
+                          {/* <img
                             alt="..."
                             className="avatar img-raised"
                             src={require("assets/img/faces/team-2.jpg")}
-                          ></img>
+                          ></img> */}
                           <span>Michael Jenos</span>
                         </div>
                       </div>
@@ -96,11 +96,11 @@ function Testimonials3() {
                           make the whole"
                         </p>
                         <div className="author">
-                          <img
+                          {/* <img
                             alt="..."
                             className="avatar img-raised"
                             src={require("assets/img/faces/team-3.jpg")}
-                          ></img>
+                          ></img> */}
                           <span>Rose Arthur</span>
                         </div>
                       </div>
@@ -116,11 +116,11 @@ function Testimonials3() {
                           Airbnb."
                         </p>
                         <div className="author">
-                          <img
+                          {/* <img
                             alt="..."
                             className="avatar img-raised"
                             src={require("assets/img/faces/team-4.jpg")}
-                          ></img>
+                          ></img> */}
                           <span>Lora Jimi</span>
                         </div>
                       </div>
@@ -136,11 +136,11 @@ function Testimonials3() {
                           of 2017, boosted by large."
                         </p>
                         <div className="author">
-                          <img
+                          {/* <img
                             alt="..."
                             className="avatar img-raised"
                             src={require("assets/img/faces/team-5.jpg")}
-                          ></img>
+                          ></img> */}
                           <span>Mike Ranson</span>
                         </div>
                       </div>

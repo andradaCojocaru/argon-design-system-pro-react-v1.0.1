@@ -30,7 +30,7 @@ import Typography from "components/index-page/Typography.js";
 import Images from "components/index-page/Images.js";
 import Tables from "components/index-page/Tables.js";
 import Comments from "components/index-page/Comments.js";
-import Chat from "components/index-page/Chat.js";
+//import Chat from "components/index-page/Chat.js";
 import Cards from "components/index-page/Cards.js";
 import Modals from "components/index-page/Modals.js";
 import DatePickers from "components/index-page/DatePickers.js";
@@ -125,7 +125,7 @@ function Index() {
             </h2>
             <Tables />
             <Comments />
-            <Chat />
+            {/* <Chat /> */}
           </Container>
         </div>
         <Cards />

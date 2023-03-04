@@ -38,11 +38,11 @@ const items = [
           </Col>
           <Col className="p-5 ml-auto" md="5">
             <div className="p-3">
-              <img
+              {/* <img
                 alt="..."
                 className="img-fluid rounded shadow transform-perspective-right"
                 src={require("assets/img/faces/fezbot.jpg")}
-              ></img>
+              ></img> */}
             </div>
           </Col>
         </Row>
@@ -77,11 +77,11 @@ const items = [
           </Col>
           <Col className="p-5 ml-auto" md="5">
             <div className="p-3">
-              <img
+              {/* <img
                 alt="..."
                 className="img-fluid rounded shadow transform-perspective-right"
                 src={require("assets/img/faces/brooke-cagle.jpg")}
-              ></img>
+              ></img> */}
             </div>
           </Col>
         </Row>

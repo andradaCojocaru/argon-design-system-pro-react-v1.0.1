@@ -11,7 +11,6 @@ import DemoFooter from "components/footers/DemoFooter.js";
 import Header5 from "components/headers/Header5.js";
 import Features1 from "components/features/Feature1.js";
 import Blogs6 from "components/blogs/Blogs6.js";
-import Pricing5 from "components/pricings/Pricing5.js";
 import Team1 from "components/teams/Team1.js";
 
 function AboutUs() {
@@ -30,7 +29,7 @@ function AboutUs() {
         <Header5 />
         <Features1 />
         <Blogs6 />
-        <Pricing5 />
+        {/* <Pricing5 /> */}
         <Team1 />
         <DemoFooter />
       </div>

@@ -41,11 +41,11 @@ function Team5() {
                 >
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
+                      {/* <img
                         alt="..."
                         className="img img-raised rounded-circle"
                         src={require("assets/img/faces/team-2.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                   </div>
                 </CardHeader>
@@ -111,11 +111,11 @@ function Team5() {
                 <CardHeader>
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
+                      {/* <img
                         alt="..."
                         className="img img-raised rounded-circle"
                         src={require("assets/img/faces/michael.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                   </div>
                 </CardHeader>
@@ -157,11 +157,11 @@ function Team5() {
                 >
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
+                      {/* <img
                         alt="..."
                         className="img img-raised rounded-circle"
                         src={require("assets/img/faces/team-3.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                   </div>
                 </CardHeader>

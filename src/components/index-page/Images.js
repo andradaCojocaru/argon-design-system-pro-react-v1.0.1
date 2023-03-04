@@ -16,45 +16,45 @@ function Images() {
           <small className="d-block text-uppercase font-weight-bold mb-4">
             Image
           </small>
-          <img
+          {/* <img
             alt="..."
             className="img-fluid rounded shadow"
             src={require("assets/img/faces/team-1.jpg")}
             style={{ width: "150px" }}
-          ></img>
+          ></img> */}
         </Col>
         <Col sm="3" xs="6">
           <small className="d-block text-uppercase font-weight-bold mb-4">
             Circle Image
           </small>
-          <img
+          {/* <img
             alt="..."
             className="img-fluid rounded-circle shadow"
             src={require("assets/img/faces/team-2.jpg")}
             style={{ width: "150px" }}
-          ></img>
+          ></img> */}
         </Col>
         <Col className="mt-5 mt-sm-0" sm="3" xs="6">
           <small className="d-block text-uppercase font-weight-bold mb-4">
             Raised
           </small>
-          <img
+          {/* <img
             alt="..."
             className="img-fluid rounded shadow-lg"
             src={require("assets/img/faces/team-3.jpg")}
             style={{ width: "150px" }}
-          ></img>
+          ></img> */}
         </Col>
         <Col className="mt-5 mt-sm-0" sm="3" xs="6">
           <small className="d-block text-uppercase font-weight-bold mb-4">
             Circle Raised
           </small>
-          <img
+          {/* <img
             alt="..."
             className="img-fluid rounded-circle shadow-lg"
             src={require("assets/img/faces/team-4.jpg")}
             style={{ width: "150px" }}
-          ></img>
+          ></img> */}
         </Col>
       </Row>
       <Row className="mt-5">
@@ -69,7 +69,7 @@ function Images() {
               onClick={(e) => e.preventDefault()}
               id="tooltip109949260"
             >
-              <img alt="..." src={require("assets/img/faces/team-1.jpg")}></img>
+              {/* <img alt="..." src={require("assets/img/faces/team-1.jpg")}></img> */}
             </a>
             <UncontrolledTooltip delay={0} target="tooltip109949260">
               Ryan Tompson
@@ -80,7 +80,7 @@ function Images() {
               onClick={(e) => e.preventDefault()}
               id="tooltip63795427"
             >
-              <img alt="..." src={require("assets/img/faces/team-2.jpg")}></img>
+              {/* <img alt="..." src={require("assets/img/faces/team-2.jpg")}></img> */}
             </a>
             <UncontrolledTooltip delay={0} target="tooltip63795427">
               Romina Hadid
@@ -91,7 +91,7 @@ function Images() {
               onClick={(e) => e.preventDefault()}
               id="tooltip305470727"
             >
-              <img alt="..." src={require("assets/img/faces/team-3.jpg")}></img>
+              {/* <img alt="..." src={require("assets/img/faces/team-3.jpg")}></img> */}
             </a>
             <UncontrolledTooltip delay={0} target="tooltip305470727">
               Alexander Smith
@@ -102,7 +102,7 @@ function Images() {
               onClick={(e) => e.preventDefault()}
               id="tooltip189410494"
             >
-              <img alt="..." src={require("assets/img/faces/team-4.jpg")}></img>
+              {/* <img alt="..." src={require("assets/img/faces/team-4.jpg")}></img> */}
             </a>
             <UncontrolledTooltip delay={0} target="tooltip189410494">
               Jessica Doe
@@ -118,35 +118,35 @@ function Images() {
             href="#pablo"
             onClick={(e) => e.preventDefault()}
           >
-            <img alt="..." src={require("assets/img/faces/team-4.jpg")}></img>
+            {/* <img alt="..." src={require("assets/img/faces/team-4.jpg")}></img> */}
           </a>{" "}
           <a
             className="avatar avatar-sm rounded-circle"
             href="#pablo"
             onClick={(e) => e.preventDefault()}
           >
-            <img alt="..." src={require("assets/img/faces/team-4.jpg")}></img>
+            {/* <img alt="..." src={require("assets/img/faces/team-4.jpg")}></img> */}
           </a>{" "}
           <a
             className="avatar rounded-circle"
             href="#pablo"
             onClick={(e) => e.preventDefault()}
           >
-            <img alt="..." src={require("assets/img/faces/team-4.jpg")}></img>
+            {/* <img alt="..." src={require("assets/img/faces/team-4.jpg")}></img> */}
           </a>{" "}
           <a
             className="avatar avatar-lg rounded-circle"
             href="#pablo"
             onClick={(e) => e.preventDefault()}
           >
-            <img alt="..." src={require("assets/img/faces/team-4.jpg")}></img>
+            {/* <img alt="..." src={require("assets/img/faces/team-4.jpg")}></img> */}
           </a>{" "}
           <a
             className="avatar avatar-xl rounded-circle"
             href="#pablo"
             onClick={(e) => e.preventDefault()}
           >
-            <img alt="..." src={require("assets/img/faces/team-4.jpg")}></img>
+            {/* <img alt="..." src={require("assets/img/faces/team-4.jpg")}></img> */}
           </a>
         </Col>
       </Row>

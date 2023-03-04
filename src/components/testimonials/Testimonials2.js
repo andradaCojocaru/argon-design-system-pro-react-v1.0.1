@@ -29,11 +29,11 @@ const items = [
             inspire other people to follow their dreams.
           </p>
           <div className="author">
-            <img
+            {/* <img
               alt="..."
               className="avatar img-raised"
               src={require("assets/img/faces/team-5.jpg")}
-            ></img>
+            ></img> */}
             <span>Mike John</span>
           </div>
         </div>
@@ -80,11 +80,11 @@ const items = [
             a single friend, my world.
           </p>
           <div className="author">
-            <img
+            {/* <img
               alt="..."
               className="avatar img-raised"
               src={require("assets/img/faces/team-3.jpg")}
-            ></img>
+            ></img> */}
             <span>Andrew Lino</span>
           </div>
         </div>

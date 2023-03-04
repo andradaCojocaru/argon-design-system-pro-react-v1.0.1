@@ -11,11 +11,11 @@ function ProfileCard4() {
       <Card className="card-profile" data-image="img-rounded">
         <div className="card-avatar">
           <a href="#pablo" onClick={(e) => e.preventDefault()}>
-            <img
+            {/* <img
               alt="..."
               className="img"
               src={require("assets/img/faces/team-1.jpg")}
-            ></img>
+            ></img> */}
           </a>
         </div>
         <CardBody>

@@ -108,10 +108,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip610556092"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/faces/team-1.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip610556092">
                       Ryan Tompson
@@ -122,10 +122,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip467974775"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/faces/team-2.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip467974775">
                       Romina Hadid
@@ -136,10 +136,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip533287280"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/faces/team-3.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip533287280">
                       Alexander Smith
@@ -150,10 +150,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip505977567"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img//faces/team-4.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip505977567">
                       Jessica Doe
@@ -228,10 +228,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip485942054"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/faces/team-1.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip485942054">
                       Ryan Tompson
@@ -242,10 +242,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip194654297"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/faces/team-2.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip194654297">
                       Romina Hadid
@@ -256,10 +256,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip744668896"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/faces/team-3.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip744668896">
                       Alexander Smith
@@ -270,10 +270,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip662587306"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img//faces/team-4.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip662587306">
                       Jessica Doe
@@ -348,10 +348,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip143851957"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/faces/team-1.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip143851957">
                       Ryan Tompson
@@ -362,10 +362,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip846192809"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/faces/team-2.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip846192809">
                       Romina Hadid
@@ -376,10 +376,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip995755804"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/faces/team-3.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip995755804">
                       Alexander Smith
@@ -390,10 +390,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip902018889"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img//faces/team-4.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip902018889">
                       Jessica Doe
@@ -468,10 +468,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip441378595"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/faces/team-1.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip441378595">
                       Ryan Tompson
@@ -482,10 +482,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip948230858"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/faces/team-2.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip948230858">
                       Romina Hadid
@@ -496,10 +496,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip112452932"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/faces/team-3.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip112452932">
                       Alexander Smith
@@ -510,10 +510,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip655929737"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img//faces/team-4.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip655929737">
                       Jessica Doe
@@ -588,10 +588,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip505014392"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/faces/team-1.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip505014392">
                       Ryan Tompson
@@ -602,10 +602,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip223581557"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/faces/team-2.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip223581557">
                       Romina Hadid
@@ -616,10 +616,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip160898790"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/faces/team-3.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip160898790">
                       Alexander Smith
@@ -630,10 +630,10 @@ function Projects1() {
                       onClick={(e) => e.preventDefault()}
                       id="tooltip664397004"
                     >
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img//faces/team-4.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                     <UncontrolledTooltip delay={0} target="tooltip664397004">
                       Jessica Doe

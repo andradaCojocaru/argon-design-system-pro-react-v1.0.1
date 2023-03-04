@@ -44,11 +44,11 @@ function ProfileCard1() {
               </DropdownMenu>
             </UncontrolledDropdown>
             <a href="#pablo" onClick={(e) => e.preventDefault()}>
-              <img
+              {/* <img
                 alt="..."
                 className="img rounded"
                 src={require("assets/img/faces/team-5.jpg")}
-              ></img>
+              ></img> */}
             </a>
           </div>
         </CardHeader>

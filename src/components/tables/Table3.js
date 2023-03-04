@@ -69,10 +69,10 @@ function Table3() {
                   id="tooltip411183965"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-1.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip411183965">
                   Ryan Tompson
@@ -83,10 +83,10 @@ function Table3() {
                   id="tooltip745196868"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-2.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip745196868">
                   Romina Hadid
@@ -97,10 +97,10 @@ function Table3() {
                   id="tooltip462969587"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-3.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip462969587">
                   Alexander Smith
@@ -111,10 +111,10 @@ function Table3() {
                   id="tooltip518839912"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-4.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip518839912">
                   Jessica Doe
@@ -177,10 +177,10 @@ function Table3() {
                   id="tooltip766138884"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-1.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip766138884">
                   Ryan Tompson
@@ -191,10 +191,10 @@ function Table3() {
                   id="tooltip571622963"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-2.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip571622963">
                   Romina Hadid
@@ -205,10 +205,10 @@ function Table3() {
                   id="tooltip525285585"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-3.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip525285585">
                   Alexander Smith
@@ -219,10 +219,10 @@ function Table3() {
                   id="tooltip48326835"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-4.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip48326835">
                   Jessica Doe
@@ -283,10 +283,10 @@ function Table3() {
                   id="tooltip690800276"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-1.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip690800276">
                   Ryan Tompson
@@ -297,10 +297,10 @@ function Table3() {
                   id="tooltip393764125"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-2.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip393764125">
                   Romina Hadid
@@ -311,10 +311,10 @@ function Table3() {
                   id="tooltip580586961"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-3.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip580586961">
                   Alexander Smith
@@ -325,10 +325,10 @@ function Table3() {
                   id="tooltip797243372"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-4.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip797243372">
                   Jessica Doe
@@ -391,10 +391,10 @@ function Table3() {
                   id="tooltip554219832"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-1.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip554219832">
                   Ryan Tompson
@@ -405,10 +405,10 @@ function Table3() {
                   id="tooltip531551238"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-2.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip531551238">
                   Romina Hadid
@@ -419,10 +419,10 @@ function Table3() {
                   id="tooltip972924186"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-3.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip972924186">
                   Alexander Smith
@@ -433,10 +433,10 @@ function Table3() {
                   id="tooltip809052216"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-4.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip809052216">
                   Jessica Doe
@@ -499,10 +499,10 @@ function Table3() {
                   id="tooltip381430419"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-1.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip381430419">
                   Ryan Tompson
@@ -513,10 +513,10 @@ function Table3() {
                   id="tooltip674824249"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-2.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip674824249">
                   Romina Hadid
@@ -527,10 +527,10 @@ function Table3() {
                   id="tooltip527431314"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-3.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip527431314">
                   Alexander Smith
@@ -541,10 +541,10 @@ function Table3() {
                   id="tooltip868302744"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <img
+                  {/* <img
                     alt="..."
                     src={require("assets/img/faces/team-4.jpg")}
-                  ></img>
+                  ></img> */}
                 </a>
                 <UncontrolledTooltip delay={0} target="tooltip868302744">
                   Jessica Doe

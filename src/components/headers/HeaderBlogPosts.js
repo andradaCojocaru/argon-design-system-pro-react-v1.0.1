@@ -12,8 +12,8 @@ function HeaderBlogPosts() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage:
-              "url(" + require("assets/img/pages/nicolas-prieto.jpg") + ")",
+            // backgroundImage:
+            //   "url(" + require("assets/img/pages/nicolas-prieto.jpg") + ")",
           }}
         ></div>
         <div className="content-center">

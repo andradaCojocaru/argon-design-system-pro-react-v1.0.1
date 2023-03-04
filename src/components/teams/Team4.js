@@ -82,10 +82,10 @@ function Team4() {
                               onClick={(e) => e.preventDefault()}
                               id="tooltip509740348"
                             >
-                              <img
+                              {/* <img
                                 alt="..."
                                 src={require("assets/img/faces/team-1.jpg")}
-                              ></img>
+                              ></img> */}
                             </a>
                             <UncontrolledTooltip
                               delay={0}
@@ -99,10 +99,10 @@ function Team4() {
                               onClick={(e) => e.preventDefault()}
                               id="tooltip473133872"
                             >
-                              <img
+                              {/* <img
                                 alt="..."
                                 src={require("assets/img/faces/team-2.jpg")}
-                              ></img>
+                              ></img> */}
                             </a>
                             <UncontrolledTooltip
                               delay={0}
@@ -116,10 +116,10 @@ function Team4() {
                               onClick={(e) => e.preventDefault()}
                               id="tooltip19046757"
                             >
-                              <img
+                              {/* <img
                                 alt="..."
                                 src={require("assets/img/faces/team-3.jpg")}
-                              ></img>
+                              ></img> */}
                             </a>
                             <UncontrolledTooltip
                               delay={0}
@@ -133,10 +133,10 @@ function Team4() {
                               onClick={(e) => e.preventDefault()}
                               id="tooltip678664894"
                             >
-                              <img
+                              {/* <img
                                 alt="..."
                                 src={require("assets/img//faces/team-4.jpg")}
-                              ></img>
+                              ></img> */}
                             </a>
                             <UncontrolledTooltip
                               delay={0}

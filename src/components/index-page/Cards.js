@@ -25,13 +25,7 @@ import ProfileCard6 from "components/cards/ProfileCard6.js";
 import FullBackgroundCard1 from "components/cards/FullBackgroundCard1.js";
 import FullBackgroundCard2 from "components/cards/FullBackgroundCard2.js";
 import FullBackgroundCard3 from "components/cards/FullBackgroundCard3.js";
-// Pricing Cards
-import PricingCard1 from "components/cards/PricingCard1.js";
-import PricingCard2 from "components/cards/PricingCard2.js";
-import PricingCard3 from "components/cards/PricingCard3.js";
-import PricingCard4 from "components/cards/PricingCard4.js";
-import PricingCard5 from "components/cards/PricingCard5.js";
-import PricingCard6 from "components/cards/PricingCard6.js";
+
 
 function Index() {
   React.useEffect(() => {
@@ -107,26 +101,6 @@ function Index() {
           <h3 className="h4 text-success font-weight-bold mb-5 mt-5">
             Pricing Cards
           </h3>
-          <Row>
-            <Col lg="4" md="6">
-              <PricingCard1 />
-            </Col>
-            <Col lg="4" md="6">
-              <PricingCard2 />
-            </Col>
-            <Col lg="4" md="6">
-              <PricingCard3 />
-            </Col>
-            <Col lg="4" md="6">
-              <PricingCard4 />
-            </Col>
-            <Col lg="4" md="6">
-              <PricingCard5 />
-            </Col>
-            <Col lg="4" md="6">
-              <PricingCard6 />
-            </Col>
-          </Row>
         </Container>
       </div>
     </>

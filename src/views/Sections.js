@@ -15,9 +15,8 @@ import FeaturesSection from "components/sections-page/FeaturesSection.js";
 import BlogsSection from "components/sections-page/BlogsSection.js";
 import TeamsSection from "components/sections-page/TeamsSection.js";
 import ProjectsSection from "components/sections-page/ProjectsSection.js";
-import PricingsSection from "components/sections-page/PricingsSection.js";
 import TestimonialsSection from "components/sections-page/TestimonialsSection.js";
-import ContactUsSection from "components/sections-page/ContactUsSection.js";
+// import ContactUsSection from "components/sections-page/ContactUsSection.js";
 import TablesSection from "components/sections-page/TablesSection.js";
 import AccordionsSection from "components/sections-page/AccordionsSection.js";
 
@@ -48,9 +47,8 @@ function Sections() {
         <BlogsSection />
         <TeamsSection />
         <ProjectsSection />
-        <PricingsSection />
         <TestimonialsSection />
-        <ContactUsSection />
+        {/* <ContactUsSection /> */}
         <TablesSection />
         <AccordionsSection />
         <DemoFooter />

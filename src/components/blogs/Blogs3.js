@@ -16,11 +16,11 @@ function Blogs3() {
                   <Col lg="4">
                     <div className="card-image shadow">
                       <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        <img
+                        {/* <img
                           alt="..."
                           className="img rounded"
                           src={require("assets/img/faces/team-2.jpg")}
-                        ></img>
+                        ></img> */}
                       </a>
                     </div>
                   </Col>
@@ -41,11 +41,11 @@ function Blogs3() {
                         </a>
                       </p>
                       <div className="author">
-                        <img
+                        {/* <img
                           alt="..."
                           className="avatar img-raised"
                           src={require("assets/img/faces/team-1.jpg")}
-                        ></img>
+                        ></img> */}
                         <div className="text">
                           <span className="name">Tom Hanks</span>
                           <div className="meta">Drawn on 23 Jan</div>
@@ -60,11 +60,11 @@ function Blogs3() {
                   <Col lg="4">
                     <div className="card-image shadow">
                       <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        <img
+                        {/* <img
                           alt="..."
                           className="img rounded"
                           src={require("assets/img/faces/team-3.jpg")}
-                        ></img>
+                        ></img> */}
                       </a>
                     </div>
                   </Col>
@@ -85,11 +85,11 @@ function Blogs3() {
                         </a>
                       </p>
                       <div className="author">
-                        <img
+                        {/* <img
                           alt="..."
                           className="avatar img-raised"
                           src={require("assets/img/faces/team-5.jpg")}
-                        ></img>
+                        ></img> */}
                         <div className="text">
                           <span className="name">Paul Smith</span>
                           <div className="meta">Drawn on 23 Jan</div>
@@ -104,11 +104,11 @@ function Blogs3() {
                   <Col lg="4">
                     <div className="card-image shadow">
                       <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        <img
+                        {/* <img
                           alt="..."
                           className="img rounded"
                           src={require("assets/img/faces/team-4.jpg")}
-                        ></img>
+                        ></img> */}
                       </a>
                     </div>
                   </Col>
@@ -129,11 +129,11 @@ function Blogs3() {
                         </a>
                       </p>
                       <div className="author">
-                        <img
+                        {/* <img
                           alt="..."
                           className="avatar img-raised"
                           src={require("assets/img/faces/team-2.jpg")}
-                        ></img>
+                        ></img> */}
                         <div className="text">
                           <span className="name">Jasmine Tailor</span>
                           <div className="meta">Drawn on 23 Jan</div>

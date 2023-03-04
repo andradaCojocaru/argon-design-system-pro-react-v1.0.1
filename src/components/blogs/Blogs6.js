@@ -44,11 +44,11 @@ function Blogs6() {
                     – to identify the parts that make the whole
                   </p>
                   <div className="author">
-                    <img
+                    {/* <img
                       alt="..."
                       className="avatar"
                       src={require("assets/img/faces/team-4.jpg")}
-                    ></img>
+                    ></img> */}
                     <span className="text-white">by Johanna Zmud</span>
                   </div>
                   <br></br>

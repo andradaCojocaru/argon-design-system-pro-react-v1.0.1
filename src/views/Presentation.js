@@ -21,7 +21,7 @@ import FreeDemo from "components/presentation-page/FreeDemo.js";
 import Icons from "components/presentation-page/Icons.js";
 import Features from "components/presentation-page/Features.js";
 import Testimonials from "components/presentation-page/Testimonials.js";
-import Pricing from "components/presentation-page/Pricing.js";
+// import Pricing from "components/presentation-page/Pricing.js";
 
 function Presentation() {
   React.useEffect(() => {

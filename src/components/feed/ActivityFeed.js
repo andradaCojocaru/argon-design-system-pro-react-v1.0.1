@@ -26,11 +26,11 @@ function ActivityFeed() {
         <CardHeader className="d-flex align-items-center">
           <div className="d-flex align-items-center">
             <a href="#pablo" onClick={(e) => e.preventDefault()}>
-              <img
+              {/* <img
                 alt="..."
                 className="avatar"
                 src={require("assets/img/faces/team-1.jpg")}
-              ></img>
+              ></img> */}
             </a>
             <div className="mx-3">
               <a
@@ -99,10 +99,10 @@ function ActivityFeed() {
                     onClick={(e) => e.preventDefault()}
                     id="tooltip777026221"
                   >
-                    <img
+                    {/* <img
                       alt="..."
                       src={require("assets/img/faces/team-1.jpg")}
-                    ></img>
+                    ></img> */}
                   </a>
                   <UncontrolledTooltip delay={0} target="tooltip777026221">
                     Jessica Rowland
@@ -113,11 +113,11 @@ function ActivityFeed() {
                     onClick={(e) => e.preventDefault()}
                     id="tooltip386481262"
                   >
-                    <img
+                    {/* <img
                       alt="..."
                       className="rounded-circle"
                       src={require("assets/img/faces/team-2.jpg")}
-                    ></img>
+                    ></img> */}
                   </a>
                   <UncontrolledTooltip delay={0} target="tooltip386481262">
                     Audrey Love
@@ -128,11 +128,11 @@ function ActivityFeed() {
                     onClick={(e) => e.preventDefault()}
                     id="tooltip508888926"
                   >
-                    <img
+                    {/* <img
                       alt="..."
                       className="rounded-circle"
                       src={require("assets/img/faces/team-3.jpg")}
-                    ></img>
+                    ></img> */}
                   </a>
                   <UncontrolledTooltip delay={0} target="tooltip508888926">
                     Michael Lewis
@@ -144,11 +144,11 @@ function ActivityFeed() {
           </Row>
           <div className="mb-1">
             <Media className="media-comment">
-              <img
+              {/* <img
                 alt="..."
                 className="media-comment-avatar rounded-circle"
                 src={require("assets/img/faces/team-1.jpg")}
-              ></img>
+              ></img> */}
               <Media>
                 <div className="media-comment-text">
                   <h6 className="h5 mt-0">Michael Lewis</h6>
@@ -175,11 +175,11 @@ function ActivityFeed() {
               </Media>
             </Media>
             <Media className="media-comment">
-              <img
+              {/* <img
                 alt="..."
                 className="media-comment-avatar rounded-circle"
                 src={require("assets/img/faces/team-2.jpg")}
-              ></img>
+              ></img> */}
               <Media>
                 <div className="media-comment-text">
                   <h6 className="h5 mt-0">Jessica Stones</h6>
@@ -206,11 +206,11 @@ function ActivityFeed() {
               </Media>
             </Media>
             <Media className="align-items-center mt-5">
-              <img
+              {/* <img
                 alt="..."
                 className="avatar avatar-lg rounded-circle mb-4"
                 src={require("assets/img/faces/team-3.jpg")}
-              ></img>
+              ></img> */}
               <Media body>
                 <Form>
                   <Input

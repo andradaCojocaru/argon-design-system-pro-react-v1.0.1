@@ -33,11 +33,11 @@ function BlogCard8() {
         </CardBody>
         <CardFooter>
           <div className="author">
-            <img
+            {/* <img
               alt="..."
               className="avatar img-raised"
               src={require("assets/img/faces/team-3.jpg")}
-            ></img>
+            ></img> */}
             <span>Dylan Wyatt</span>
           </div>
           <div className="stats stats-right">

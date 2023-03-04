@@ -20,7 +20,7 @@ function Blogs7() {
                           alt="..."
                           className="shadow"
                           object
-                          src={require("assets/img/faces/team-2.jpg")}
+                          // src={require("assets/img/faces/team-2.jpg")}
                         ></Media>
                       </div>
                       <div className="text">

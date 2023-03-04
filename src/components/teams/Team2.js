@@ -70,11 +70,11 @@ function Team2() {
                       </DropdownMenu>
                     </UncontrolledDropdown>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
+                      {/* <img
                         alt="..."
                         className="img rounded"
                         src={require("assets/img/faces/ali-pazani.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                   </div>
                 </CardHeader>
@@ -166,11 +166,11 @@ function Team2() {
                       </DropdownMenu>
                     </UncontrolledDropdown>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
+                      {/* <img
                         alt="..."
                         className="img rounded"
                         src={require("assets/img/faces/team-5.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                   </div>
                 </CardHeader>
@@ -262,11 +262,11 @@ function Team2() {
                       </DropdownMenu>
                     </UncontrolledDropdown>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
+                      {/* <img
                         alt="..."
                         className="img rounded"
                         src={require("assets/img/faces/atikh.jpg")}
-                      ></img>
+                      ></img> */}
                     </a>
                   </div>
                 </CardHeader>

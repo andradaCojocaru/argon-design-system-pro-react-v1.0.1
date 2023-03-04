@@ -17,11 +17,11 @@ function ProfileCard2() {
         >
           <div className="card-avatar">
             <a href="#pablo" onClick={(e) => e.preventDefault()}>
-              <img
+              {/* <img
                 alt="..."
                 className="img img-raised rounded-circle"
                 src={require("assets/img/faces/team-4.jpg")}
-              ></img>
+              ></img> */}
             </a>
           </div>
         </CardHeader>
