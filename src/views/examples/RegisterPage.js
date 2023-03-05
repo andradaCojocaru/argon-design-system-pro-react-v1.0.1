@@ -169,9 +169,9 @@ function RegisterPage() {
                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
                   Forgot your password?
                 </a>
-                {/* <Button className="mt-3" color="primary">
+                <Button className="mt-3" color="primary">
                   Sign In
-                </Button> */}
+                </Button>
               </Form>
             </div>
             <div className="overlay-container">
@@ -182,7 +182,7 @@ function RegisterPage() {
                     To keep connected with us please login with your personal
                     info
                   </p>
-                  {/* <Button
+                  <Button
                     className="btn-neutral"
                     color="default"
                     id="signIn"
@@ -190,7 +190,7 @@ function RegisterPage() {
                     onClick={() => setActiveContainer("")}
                   >
                     Sign In
-                  </Button> */}
+                  </Button>
                 </div>
                 <div className="overlay-panel overlay-right">
                   <h1 className="text-white">Hello, Friend!</h1>
