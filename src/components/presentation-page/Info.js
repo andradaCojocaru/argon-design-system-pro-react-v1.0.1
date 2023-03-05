@@ -24,7 +24,7 @@ function Info() {
                   Cauta doctorul de care ai nevoie
                 </p>
                 {/* <Link className="text-primary" to="/index"> */}
-                <Link className="text-primary" to="/gaseste-doctor" tag={Link}>
+                <Link className="text-primary" to="/sugereaza-medic" tag={Link}>
                 
                   Cauta{" "}
                   <i className="ni ni-bold-right text-primary"></i>

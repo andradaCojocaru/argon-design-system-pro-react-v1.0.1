@@ -1,4 +1,4 @@
-.gaseste-doctor {
+.sugereaza-medic {
 
   .page-header {
     .container {
@@ -208,7 +208,7 @@
 }
 
 @include media-breakpoint-down(sm) {
-  .gaseste-doctor {
+  .sugereaza-medic {
     form {
       padding: 0 10px !important;
 
@@ -220,7 +220,7 @@
 }
 
 @media (max-width: 375px) {
-  .gaseste-doctor {
+  .sugereaza-medic {
     h1 {
       font-size: 1.5rem;
     }

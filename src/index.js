@@ -33,7 +33,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/index" exact render={(props) => <Index {...props} />} />
+      <Route path="/sections" exact render={(props) => <Index {...props} />} />
       <Route
         path="/sections"
         exact
@@ -121,7 +121,7 @@ root.render(
         render={(props) => <ProfilePage {...props} />}
       /> */}
       <Route
-        path="/gaseste-doctor"
+        path="/sugereaza-medic"
         exact
         render={(props) => <RegisterPage {...props} />}
       />

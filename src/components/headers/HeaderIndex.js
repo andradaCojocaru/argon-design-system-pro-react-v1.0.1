@@ -39,7 +39,6 @@ function HeaderIndex() {
                       <span className="btn-inner--icon">
                         <i className="fas fa-shopping-cart"></i>
                       </span>
-                      <span className="btn-inner--text">Purchase</span>
                     </Button>
                     <Button
                       className="btn-white btn-icon mb-3 mb-sm-0"

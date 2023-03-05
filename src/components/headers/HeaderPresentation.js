@@ -2,6 +2,7 @@ import React from "react";
 
 // reactstrap components
 import { Badge, Button, Container, Row, Col } from "reactstrap";
+import ChatGpt from '../ChatGpt';
 
 // Core Components
 
@@ -35,18 +36,7 @@ function HeaderPresentation() {
                     Ai o problema medicala si nu stii la cine sa apelezi pentru ajutor? <br></br>
                     <b>Introdu mai jos simptomele tale si afla la ce cabinet ar trebui sa mergi</b>
                   </p>
-                  <div className="btn-wrapper mt-5">
-                    <Button
-                      className="btn-white btn-icon mb-3 mb-sm-0"
-                      color="default"
-                      href="https://www.creative-tim.com/product/argon-design-system-pro-react?ref=adspr-header-presentation"
-                    >
-                      <span className="btn-inner--icon">
-                        <i className="fas fa-shopping-cart"></i>
-                      </span>
-                      <span className="btn-inner--text">Purchase</span>
-                    </Button>
-                  </div>
+                  <ChatGpt></ChatGpt>
                   {/* <div className="mt-5">
                     <small className="font-weight-bold mb-0 mr-2">
                       *proudly coded by

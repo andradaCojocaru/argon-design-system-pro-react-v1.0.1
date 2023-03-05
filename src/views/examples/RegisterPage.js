@@ -24,11 +24,11 @@ function RegisterPage() {
   const [signinEmailFocus, setSigninEmailFocus] = React.useState("");
   const [signinPasswordFocus, setSigninPasswordFocus] = React.useState("");
   React.useEffect(() => {
-    document.body.classList.add("gaseste-doctor");
+    document.body.classList.add("sugereaza-medic");
     window.scrollTo(0, 0);
     document.body.scrollTop = 0;
     return function cleanup() {
-      document.body.classList.remove("gaseste-doctor");
+      document.body.classList.remove("sugereaza-medic");
     };
   }, []);
   return (
@@ -47,26 +47,6 @@ function RegisterPage() {
             <div className="form-container sign-up-container">
               <Form>
                 <h2>Create Account</h2>
-                <div className="social-container">
-                  <Button color="facebook" size="sm" type="button">
-                    <span className="btn-inner--icon">
-                      <i className="fab fa-facebook"></i>
-                    </span>
-                  </Button>
-                  <Button color="instagram" size="sm" type="button">
-                    <span className="btn-inner--icon">
-                      <i className="fab fa-instagram"></i>
-                    </span>
-                  </Button>
-                  <Button color="twitter" size="sm" type="button">
-                    <span className="btn-inner--icon">
-                      <i className="fab fa-twitter"></i>
-                    </span>
-                  </Button>
-                </div>
-                <span className="text-default mb-4">
-                  or use your email for registration
-                </span>
                 <FormGroup className={"mb-3 " + signupNameFocus}>
                   <InputGroup className="input-group-alternative">
                     <InputGroupAddon addonType="prepend">
@@ -74,24 +54,17 @@ function RegisterPage() {
                         <i className="ni ni-circle-08"></i>
                       </InputGroupText>
                     </InputGroupAddon>
-                    <Input
-                      placeholder="Name"
-                      type="text"
-                      onFocus={() => setSignupNameFocus("focused")}
-                      onBlur={() => setSignupNameFocus("")}
-                    ></Input>
                   </InputGroup>
                 </FormGroup>
                 <FormGroup className={"mb-3 " + signupEmailFocus}>
                   <InputGroup className="input-group-alternative">
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
-                        <i className="ni ni-email-83"></i>
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
-                      placeholder="Email"
-                      type="email"
+                      placeholder="Nume"
+                      type="nume"
                       onFocus={() => setSignupEmailFocus("focused")}
                       onBlur={() => setSignupEmailFocus("")}
                     ></Input>
@@ -101,109 +74,154 @@ function RegisterPage() {
                   <InputGroup className="input-group-alternative">
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
-                        <i className="ni ni-lock-circle-open"></i>
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
-                      placeholder="Password"
-                      type="password"
+                      placeholder="Prenume"
+                      type="prenume"
                       onFocus={() => setSignupPasswordFocus("focused")}
                       onBlur={() => setSignupPasswordFocus("")}
                     ></Input>
                   </InputGroup>
                 </FormGroup>
-                <Button color="primary">Sign Up</Button>
+                <FormGroup className={signupPasswordFocus}>
+                  <InputGroup className="input-group-alternative">
+                    <InputGroupAddon addonType="prepend">
+                      <InputGroupText>
+                      </InputGroupText>
+                    </InputGroupAddon>
+                    <Input
+                      placeholder="Specializare"
+                      type="specializare"
+                      onFocus={() => setSignupPasswordFocus("focused")}
+                      onBlur={() => setSignupPasswordFocus("")}
+                    ></Input>
+                  </InputGroup>
+                </FormGroup>
+                <FormGroup className={signupPasswordFocus}>
+                  <InputGroup className="input-group-alternative">
+                    <InputGroupAddon addonType="prepend">
+                      <InputGroupText>
+                      </InputGroupText>
+                    </InputGroupAddon>
+                    <Input
+                      placeholder="Spital"
+                      type="spital"
+                      onFocus={() => setSignupPasswordFocus("focused")}
+                      onBlur={() => setSignupPasswordFocus("")}
+                    ></Input>
+                  </InputGroup>
+                </FormGroup>
+                <FormGroup className={signupPasswordFocus}>
+                  <InputGroup className="input-group-alternative">
+                    <InputGroupAddon addonType="prepend">
+                      <InputGroupText>
+                      </InputGroupText>
+                    </InputGroupAddon>
+                    <Input
+                      placeholder="Comentariu"
+                      type="comentariu"
+                      onFocus={() => setSignupPasswordFocus("focused")}
+                      onBlur={() => setSignupPasswordFocus("")}
+                    ></Input>
+                  </InputGroup>
+                </FormGroup>
+                <Button color="primary">Adauga</Button>
               </Form>
             </div>
             <div className="form-container sign-in-container">
               <Form action="#" role="form">
-                <h2>Sign in</h2>
-                <div className="social-container">
-                  <Button color="facebook" size="sm" type="button">
-                    <span className="btn-inner--icon">
-                      <i className="fab fa-facebook"></i>
-                    </span>
-                  </Button>
-                  <Button color="instagram" size="sm" type="button">
-                    <span className="btn-inner--icon">
-                      <i className="fab fa-instagram"></i>
-                    </span>
-                  </Button>
-                  <Button color="twitter" size="sm" type="button">
-                    <span className="btn-inner--icon">
-                      <i className="fab fa-twitter"></i>
-                    </span>
-                  </Button>
-                </div>
-                <span className="text-default mb-4">or use your account</span>
-                <FormGroup className={"mb-3 " + signinEmailFocus}>
+                <FormGroup className={"mb-3 " + signupEmailFocus}>
                   <InputGroup className="input-group-alternative">
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
-                        <i className="ni ni-email-83"></i>
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
-                      placeholder="Email"
-                      type="email"
-                      onFocus={() => setSigninEmailFocus("focused")}
-                      onBlur={() => setSigninEmailFocus("")}
+                      placeholder="Nume"
+                      type="nume"
+                      onFocus={() => setSignupEmailFocus("focused")}
+                      onBlur={() => setSignupEmailFocus("")}
                     ></Input>
                   </InputGroup>
                 </FormGroup>
-                <FormGroup className={signinPasswordFocus}>
+                <FormGroup className={signupPasswordFocus}>
                   <InputGroup className="input-group-alternative">
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
-                        <i className="ni ni-lock-circle-open"></i>
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
-                      placeholder="Password"
-                      type="password"
-                      onFocus={() => setSigninPasswordFocus("focused")}
-                      onBlur={() => setSigninPasswordFocus("")}
+                      placeholder="Prenume"
+                      type="prenume"
+                      onFocus={() => setSignupPasswordFocus("focused")}
+                      onBlur={() => setSignupPasswordFocus("")}
                     ></Input>
                   </InputGroup>
                 </FormGroup>
-                <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                  Forgot your password?
-                </a>
+                <FormGroup className={signupPasswordFocus}>
+                  <InputGroup className="input-group-alternative">
+                    <InputGroupAddon addonType="prepend">
+                      <InputGroupText>
+                      </InputGroupText>
+                    </InputGroupAddon>
+                    <Input
+                      placeholder="Specializare"
+                      type="specializare"
+                      onFocus={() => setSignupPasswordFocus("focused")}
+                      onBlur={() => setSignupPasswordFocus("")}
+                    ></Input>
+                  </InputGroup>
+                </FormGroup>
+                <FormGroup className={signupPasswordFocus}>
+                  <InputGroup className="input-group-alternative">
+                    <InputGroupAddon addonType="prepend">
+                      <InputGroupText>
+                      </InputGroupText>
+                    </InputGroupAddon>
+                    <Input
+                      placeholder="Spital"
+                      type="spital"
+                      onFocus={() => setSignupPasswordFocus("focused")}
+                      onBlur={() => setSignupPasswordFocus("")}
+                    ></Input>
+                  </InputGroup>
+                </FormGroup>
+                <FormGroup className={signupPasswordFocus}>
+                  <InputGroup className="input-group-alternative">
+                    <InputGroupAddon addonType="prepend">
+                      <InputGroupText>
+                      </InputGroupText>
+                    </InputGroupAddon>
+                    <Input
+                      placeholder="Comentariu"
+                      type="comentariu"
+                      onFocus={() => setSignupPasswordFocus("focused")}
+                      onBlur={() => setSignupPasswordFocus("")}
+                    ></Input>
+                  </InputGroup>
+                </FormGroup>
                 <Button className="mt-3" color="primary">
-                  Sign In
-                </Button>
+                  Adauga
+                </Button> 
               </Form>
             </div>
             <div className="overlay-container">
               <div className="overlay">
                 <div className="overlay-panel overlay-left">
-                  <h1 className="text-white">Welcome Back!</h1>
-                  <p>
-                    To keep connected with us please login with your personal
-                    info
-                  </p>
-                  <Button
+                <Button
                     className="btn-neutral"
                     color="default"
                     id="signIn"
                     size="sm"
                     onClick={() => setActiveContainer("")}
                   >
-                    Sign In
+                    Adauga
                   </Button>
                 </div>
                 <div className="overlay-panel overlay-right">
-                  <h1 className="text-white">Hello, Friend!</h1>
-                  <p>Enter your personal details and start journey with us</p>
-                  <Button
-                    className="btn-neutral"
-                    color="default"
-                    id="signUp"
-                    size="sm"
-                    onClick={() => setActiveContainer("right-panel-active")}
-                  >
-                    Sign Up
-                  </Button>
+                  <h1 className="text-white">Adauga un medic</h1>
+                  <p>Este spre binele tuturor sa aiba ocazia sa cunoasta din experienta pe care ai avut-o cu un medic ce nu este inca in comunitatea noastra</p>
                 </div>
               </div>
             </div>

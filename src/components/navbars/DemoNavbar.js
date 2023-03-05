@@ -281,7 +281,7 @@ function DemoNavbar(props) {
                   <span className="nav-link-inner--text">Meniu</span>
                 </DropdownToggle>
                 <DropdownMenu aria-labelledby="navbarDropdownMenuLink">
-                <DropdownItem to="/gaseste-doctor" tag={Link}>
+                <DropdownItem to="/sugereaza-medic" tag={Link}>
                     <i className="ni ni-satisfied"></i>
                     Gaseste un medic
                   </DropdownItem>
