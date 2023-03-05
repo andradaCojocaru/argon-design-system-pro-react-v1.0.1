@@ -26,7 +26,9 @@ import LoginPage from "views/examples/LoginPage.js";
 // import PricingPage from "views/examples/PricingPage.js";
 //import ProductPage from "views/examples/ProductPage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
+import RegisterPage2 from "views/examples/RegisterPage2.js";
 import ResetPage from "views/examples/ResetPage.js";
+import Team2 from "views/examples/Team2";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -124,6 +126,16 @@ root.render(
         path="/sugereaza-medic"
         exact
         render={(props) => <RegisterPage {...props} />}
+      />
+      <Route
+        path="/medici"
+        exact
+        render={(props) => <Tea/>}
+      />
+      <Route
+        path="/medici"
+        exact
+        render={(props) => <RegisterPage2 {...props} />}
       />
       <Route
         path="/reset-page"
