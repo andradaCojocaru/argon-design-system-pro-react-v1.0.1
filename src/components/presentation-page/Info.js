@@ -35,12 +35,21 @@ function Info() {
                 <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle">
                   <i className="ni ni-collection"></i>
                 </div>
-                <h6 className="info-title text-uppercase text-success pl-0">
+
+
+
+                {/* <h6 className="info-title text-uppercase text-success pl-0">
                   Afla povestile altora
-                </h6>
+                </h6> */}
                 <p className="description opacity-8">
                   Lasa-te inspirat de povestile oamenilor care au trecut prin experiente asemanatoare
                 </p>
+
+
+                <Link className="text-primary" to="/sections" tag={Link}>
+                Afla povestile altora{" "}
+                  <i className="ni ni-bold-right text-primary"></i>
+                </Link>
               </div>
             </Col>
             <Col lg="4" md="6">
