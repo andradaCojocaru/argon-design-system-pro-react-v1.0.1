@@ -28,7 +28,7 @@ function BlogPosts() {
   return (
     <>
       <DemoNavbar type="transparent" />
-      <div className="wrapper">
+      {/* <div className="wrapper">
         <HeaderBlogPosts />
         <div className="main main-raised">
           <Container>
@@ -62,7 +62,7 @@ function BlogPosts() {
           <PreFooter5 />
         </div>
         <DemoFooter />
-      </div>
+      </div> */}
     </>
   );
 }

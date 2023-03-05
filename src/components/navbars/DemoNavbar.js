@@ -290,7 +290,7 @@ function DemoNavbar(props) {
                     <i className="ni ni-collection"></i>
                     Afla povestile altora
                   </DropdownItem>
-                  <DropdownItem to="/login-page" tag={Link}>
+                  <DropdownItem to="/povestea-mea" tag={Link}>
                     <i className="ni ni-single-copy-04"></i>
                     Povestea ta
                   </DropdownItem>
