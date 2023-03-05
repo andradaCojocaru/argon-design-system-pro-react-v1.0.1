@@ -23,7 +23,6 @@ function Info() {
                 <p className="description opacity-8">
                   Cauta doctorul de care ai nevoie
                 </p>
-                {/* <Link className="text-primary" to="/index"> */}
                 <Link className="text-primary" to="/medici" tag={Link}>
                   Cauta{" "}
                   <i className="ni ni-bold-right text-primary"></i>

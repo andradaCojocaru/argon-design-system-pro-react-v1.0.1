@@ -281,9 +281,13 @@ function DemoNavbar(props) {
                   <span className="nav-link-inner--text">Meniu</span>
                 </DropdownToggle>
                 <DropdownMenu aria-labelledby="navbarDropdownMenuLink">
-                <DropdownItem to="/sugereaza-medic" tag={Link}>
+                <DropdownItem to="/medici" tag={Link}>
                     <i className="ni ni-satisfied"></i>
                     Gaseste un medic
+                  </DropdownItem>
+                  <DropdownItem to="/sugereaza-medic" tag={Link}>
+                    <i className="ni ni-single-copy-04"></i>
+                    sugereaza un medic
                   </DropdownItem>
 
                   <DropdownItem to="/account-settings" tag={Link}>
