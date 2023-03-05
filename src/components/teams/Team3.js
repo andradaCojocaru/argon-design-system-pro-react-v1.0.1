@@ -18,9 +18,7 @@ import {
 // Core Components
 
 function Team3() {
-  return (
-  
-  );
+  return;
 }
 
 export default Team3;

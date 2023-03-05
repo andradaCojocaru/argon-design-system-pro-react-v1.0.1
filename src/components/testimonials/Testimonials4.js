@@ -108,64 +108,7 @@ function Testimonials4() {
     const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
     setActiveIndex(nextIndex);
   };
-  return (
-    <>
-      <div className=" testimonials-1 bg-secondary py-5 skew-separator skew-top">
-        <Container>
-          <Row>
-            <Col className=" mx-auto text-center" md="6">
-              <h3 className=" display-3">What Clients Say</h3>
-            </Col>
-          </Row>
-          <Carousel
-            activeIndex={activeIndex}
-            next={next}
-            previous={previous}
-            className="carousel-team"
-            id="carousel-testimonials"
-          >
-            {items.map((item, key) => {
-              return (
-                <CarouselItem
-                  onExiting={() => setAnimating(true)}
-                  onExited={() => setAnimating(false)}
-                  key={key}
-                >
-                  {item.content}
-                </CarouselItem>
-              );
-            })}
-            <a
-              className="carousel-control-prev"
-              data-slide="prev"
-              href="#pablo"
-              onClick={(e) => {
-                e.preventDefault();
-                previous();
-              }}
-              role="button"
-            >
-              <i className="ni ni-bold-left"></i>
-              <span className="sr-only">Previous</span>
-            </a>
-            <a
-              className="carousel-control-next"
-              data-slide="next"
-              href="#pablo"
-              onClick={(e) => {
-                e.preventDefault();
-                next();
-              }}
-              role="button"
-            >
-              <i className="ni ni-bold-right"></i>
-              <span className="sr-only">Next</span>
-            </a>
-          </Carousel>
-        </Container>
-      </div>
-    </>
-  );
+  return;
 }
 
 export default Testimonials4;

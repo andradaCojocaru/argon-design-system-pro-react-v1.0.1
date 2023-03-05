@@ -18,14 +18,14 @@ function Feature3() {
           <Row className="text-center justify-content-center">
             <Col lg="8">
               <h3 className="display-3 text-white">
-                Build something great
-                <span className="text-success">with our products</span>
+                {/* Build something great */}
+                {/* <span className="text-success">with our products</span> */}
               </h3>
-              <p className="lead text-white">
+              {/* <p className="lead text-white">
                 We’re constantly trying to express ourselves and actualize our
                 dreams. If you have the opportunity to play this game of life
                 you need to appreciate every moment.
-              </p>
+              </p> */}
             </Col>
           </Row>
           <Row className="row-grid mt-5">
@@ -35,18 +35,20 @@ function Feature3() {
                   <i className="ni ni-hat-3 text-info"></i>
                 </div>
                 <div className="description pl-4">
-                  <h5 className="title text-info">Modular Components</h5>
+                  <h5 className="title text-info">Anonim</h5>
                   <p>
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever.
+                  La scoala aveam parte de marginalizare din partea colegilor, profesorii aveau un comportament cel putin indiferent fata de mine, in timp ce
+                  pe strada, oamenii ma ptiveau mereu de parca le-as fi facut vreun. Cu atat de multe neplaceri in viata mea am ajuns sa cred chiar si eu ca nu
+                  sunt bun de nimic, ca pentru mine viitorul nu are culoare, toate acestea fiind datorate doar familiei in care m-am nascut. 
+                  Din fericire, cu ajutorul unor asociatii am ajuns sa lucrez cu doamna psiholog care m-a ajutat sa imi redescopar valoare si sa imi colorez
+                  viitorul in ce nuante imi place.
                   </p>
                   <a
                     className="text-info"
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
                   >
-                    Learn more
+                    anxietate, depresie
                   </a>
                 </div>
               </div>
@@ -57,66 +59,23 @@ function Feature3() {
                   <i className="ni ni-istanbul text-warning"></i>
                 </div>
                 <div className="description pl-4">
-                  <h5 className="title text-warning">Modern Interface</h5>
+                  <h5 className="title text-warning">Anonim</h5>
                   <p>
-                    If everything I did failed - which it doesn't, it actually
-                    succeeds - just the fact that I'm willing to fail is an
-                    inspiration.
+                Fiind un om care sufera de SIDA, orice vizita medicala a fost mereu un cosmar. Cei mai multi doctori imi decalau tratamentul, din cauza stigmei si am ajuns
+                sa treaca 5 luni fara a gasi un doctor care sa ma ingrijeasca. Ma bucur ca am gasit o platforma care sa ma ajute sa-mi gasesc un doctor fara prejudecati.
                   </p>
                   <a
                     className="text-warning"
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
                   >
-                    Learn more
+                    SIDA
                   </a>
                 </div>
               </div>
             </Col>
           </Row>
           <Row className="row-grid">
-            <Col lg="6">
-              <div className="info info-horizontal bg-white">
-                <div className="icon icon-shape icon-shape-danger rounded-circle text-white">
-                  <i className="ni ni-trophy text-danger"></i>
-                </div>
-                <div className="description pl-4">
-                  <h5 className="title text-danger">Great Features</h5>
-                  <p>
-                    People are so scared to lose that they don't even try. Like,
-                    one thing people can't say is that I'm not trying, and I'm
-                    not trying my hardest.
-                  </p>
-                  <a
-                    className="text-danger"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    Learn more
-                  </a>
-                </div>
-              </div>
-            </Col>
-            <Col lg="6">
-              <div className="info info-horizontal bg-white">
-                <div className="icon icon-shape icon-shape-success rounded-circle text-white">
-                  <i className="ni ni-image text-success"></i>
-                </div>
-                <div className="description pl-4">
-                  <h5 className="title text-success">Awesome Support</h5>
-                  <p>
-                  Lasa-te motivat de povestile unor oameni care au fost in situatii asemanatoare!
-                  </p>
-                  <a
-                    className="text-success"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    Learn more
-                  </a>
-                </div>
-              </div>
-            </Col>
           </Row>
         </Container>
       </div>
