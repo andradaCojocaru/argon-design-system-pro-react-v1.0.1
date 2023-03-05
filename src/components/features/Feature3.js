@@ -105,9 +105,7 @@ function Feature3() {
                 <div className="description pl-4">
                   <h5 className="title text-success">Awesome Support</h5>
                   <p>
-                    The time is now for it to be okay to be great. People in
-                    this world shun people for being great. For being a bright
-                    color.
+                  Lasa-te motivat de povestile unor oameni care au fost in situatii asemanatoare!
                   </p>
                   <a
                     className="text-success"

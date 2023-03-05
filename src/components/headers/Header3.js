@@ -29,7 +29,7 @@ function Header3() {
   return (
     <>
       <header className="header-3 bg-dark">
-        <Navbar className="navbar-transparent navbar-absolute" expand="lg">
+        {/* <Navbar className="navbar-transparent navbar-absolute" expand="lg">
           <Container>
             <div className="navbar-translate">
               <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -96,11 +96,11 @@ function Header3() {
               </Nav>
             </UncontrolledCollapse>
           </Container>
-        </Navbar>
+        </Navbar> */}
         <div className="page-header header-filter">
           <div className="content-center">
             <Row>
-              <Col className="mx-auto positioned" lg="5" md="8" xs="12">
+              {/* <Col className="mx-auto positioned" lg="5" md="8" xs="12">
                 <h4 className="title text-white text-uppercase ml-0">
                   Build stunning websites and apps
                 </h4>
@@ -147,12 +147,12 @@ function Header3() {
                     </p>
                   </div>
                 </div>
-              </Col>
+              </Col> */}
               <Col md="12">
                 <div className="glide">
                   <div className="glide__track" data-glide-el="track">
                     <ul className="glide__slides">
-                      <li className="glide__slide">
+                      {/* <li className="glide__slide">
                         <img
                           alt="..."
                           height="500"
@@ -191,10 +191,10 @@ function Header3() {
                           src={require("assets/img/theme/ayo-ogunseinde.jpg")}
                           width="450"
                         ></img>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
-                  <div className="glide__arrows" data-glide-el="controls">
+                  {/* <div className="glide__arrows" data-glide-el="controls">
                     <button
                       className="glide__arrow glide__arrow--left"
                       data-glide-dir="<"
@@ -207,7 +207,7 @@ function Header3() {
                     >
                       <i className="ni ni-bold-right"></i>
                     </button>
-                  </div>
+                  </div> */}
                 </div>
               </Col>
             </Row>
