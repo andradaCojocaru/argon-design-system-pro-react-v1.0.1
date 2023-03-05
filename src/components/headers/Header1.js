@@ -146,20 +146,19 @@ function Header1() {
                 lg="5"
                 md="7"
               >
-                <h3 className="display-3">Argon Design System</h3>
+                <h3 className="display-3">Coltul Povestilor</h3>
                 <p className="lead mt-0">
-                  The time is now for it to be okay to be great. People in this
-                  world shun people for being great. For being a bright color.
+                Lasa-te motivat de povestile unor oameni care au trecut prin experiente asemanatoare
                 </p>
                 <br></br>
                 <div className="buttons">
-                  <Button
+                  {/* <Button
                     color="danger"
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
                   >
                     Got it
-                  </Button>
+                  </Button> */}
                 </div>
               </Col>
             </Row>

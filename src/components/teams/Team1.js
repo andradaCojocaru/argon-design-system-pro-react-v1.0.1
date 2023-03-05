@@ -295,72 +295,7 @@ function Team1() {
     const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
     setActiveIndex(nextIndex);
   };
-  return (
-    <>
-      <section className="team-1">
-        <Container>
-          <Row>
-            <Col className="ml-auto mr-auto text-center" md="8">
-              <h3 className="display-3">Our Awesome Team 1</h3>
-              <p className="lead">
-                People in this world shun people for being great. For being a
-                bright color. For standing out. But the time is now to be okay
-                to be the greatest you. Would you believe in what you believe
-                in?
-              </p>
-            </Col>
-          </Row>
-          <Row>
-            <Carousel
-              activeIndex={activeIndex}
-              next={next}
-              previous={previous}
-              className="carousel-team"
-              id="carouselExampleControls"
-            >
-              {items.map((item, key) => {
-                return (
-                  <CarouselItem
-                    onExiting={() => setAnimating(true)}
-                    onExited={() => setAnimating(false)}
-                    key={key}
-                  >
-                    {item.content}
-                  </CarouselItem>
-                );
-              })}
-              <a
-                className="carousel-control-prev"
-                data-slide="prev"
-                href="#pablo"
-                onClick={(e) => {
-                  e.preventDefault();
-                  previous();
-                }}
-                role="button"
-              >
-                <i className="ni ni-bold-left"></i>
-                <span className="sr-only">Previous</span>
-              </a>
-              <a
-                className="carousel-control-next"
-                data-slide="next"
-                href="#pablo"
-                onClick={(e) => {
-                  e.preventDefault();
-                  next();
-                }}
-                role="button"
-              >
-                <i className="ni ni-bold-right"></i>
-                <span className="sr-only">Next</span>
-              </a>
-            </Carousel>
-          </Row>
-        </Container>
-      </section>
-    </>
-  );
+  return;
 }
 
 export default Team1;
