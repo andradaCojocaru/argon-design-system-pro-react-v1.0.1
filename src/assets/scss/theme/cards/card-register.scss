@@ -1,4 +1,4 @@
-.register-page {
+.gaseste-doctor {
 
   .page-header {
     .container {
@@ -208,7 +208,7 @@
 }
 
 @include media-breakpoint-down(sm) {
-  .register-page {
+  .gaseste-doctor {
     form {
       padding: 0 10px !important;
 
@@ -220,7 +220,7 @@
 }
 
 @media (max-width: 375px) {
-  .register-page {
+  .gaseste-doctor {
     h1 {
       font-size: 1.5rem;
     }

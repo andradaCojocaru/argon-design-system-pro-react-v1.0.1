@@ -52,7 +52,7 @@ function Examples() {
               </Card>
               <h5 className="title">Register Page</h5>
               <Card>
-                <Link to="/register-page">
+                <Link to="/gaseste-doctor">
                   <img
                     alt="..."
                     src={require("assets/img/presentation-page/pages/register-page.png")}

@@ -244,7 +244,7 @@
 // White links against a dark background
 .navbar-dark {
   .navbar-brand {
-    color: $navbar-dark-brand-color;
+    color: azure;
 
     @include hover-focus {
       color: $navbar-dark-brand-hover-color;

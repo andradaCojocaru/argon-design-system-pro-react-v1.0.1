@@ -13,18 +13,13 @@ function BasicComponents() {
           <Row>
             <Col className="mb-md-5" lg="5" md="10">
               <h1 className="display-3">
-                Basic Elements
+                Recomanda un medic
                 <span className="text-primary">
-                  The core elements of your website
+                Spune tuturor despre experienta pe care ai avut-o
                 </span>
               </h1>
               <p className="lead">
-                We re-styled every Bootstrap 4 element to match the Argon Design
-                System style. All the Bootstrap 4 components that you need in a
-                development have been re-design with the new look. Besides the
-                numerous basic elements, we have also created additional
-                classes. All these items will help you take your project to the
-                next level.
+              Experienta personala este una dintre cele mai bune surse de informare. Poveste despre experienta ta si ajuta-i pe cei care sunt in cautarea unui medic potrivit nevoilor acestora
               </p>
             </Col>
             <Col lg="6" md="12">

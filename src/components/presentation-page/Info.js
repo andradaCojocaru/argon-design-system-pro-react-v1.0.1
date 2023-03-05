@@ -18,13 +18,15 @@ function Info() {
                   <i className="ni ni-satisfied"></i>
                 </div>
                 <h6 className="info-title text-uppercase text-primary pl-0">
-                  Recomanda un medic
+                  Gaseste un medic
                 </h6>
                 <p className="description opacity-8">
-                  Spune tuturor despre experienta pe care ai avut-o
+                  Cauta doctorul de care ai nevoie
                 </p>
-                <Link className="text-primary" to="/index">
-                  Recomanda{" "}
+                {/* <Link className="text-primary" to="/index"> */}
+                <Link className="text-primary" to="/gaseste-doctor" tag={Link}>
+                
+                  Cauta{" "}
                   <i className="ni ni-bold-right text-primary"></i>
                 </Link>
               </div>

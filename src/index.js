@@ -121,7 +121,7 @@ root.render(
         render={(props) => <ProfilePage {...props} />}
       /> */}
       <Route
-        path="/register-page"
+        path="/gaseste-doctor"
         exact
         render={(props) => <RegisterPage {...props} />}
       />

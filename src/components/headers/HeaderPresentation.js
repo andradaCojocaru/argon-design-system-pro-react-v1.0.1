@@ -30,10 +30,10 @@ function HeaderPresentation() {
                     src={require("assets/img/brand/blue.png")}
                     style={{ width: "200px" }}
                   ></img>{" "}
-                  <Badge color="info">PRO</Badge>
+                  
                   <p className="lead">
-                    Start the Development with this<br></br>
-                    <b>Badass Bootstrap 4 Design System.</b>
+                    Ai o problema medicala si nu stii la cine sa apelezi pentru ajutor? <br></br>
+                    <b>Introdu mai jos simptomele tale si afla la ce cabinet ar trebui sa mergi</b>
                   </p>
                   <div className="btn-wrapper mt-5">
                     <Button
@@ -47,7 +47,7 @@ function HeaderPresentation() {
                       <span className="btn-inner--text">Purchase</span>
                     </Button>
                   </div>
-                  <div className="mt-5">
+                  {/* <div className="mt-5">
                     <small className="font-weight-bold mb-0 mr-2">
                       *proudly coded by
                     </small>
@@ -56,7 +56,7 @@ function HeaderPresentation() {
                       src={require("assets/img/brand/creativetim-black-slim.png")}
                       style={{ height: "28px" }}
                     ></img>
-                  </div>
+                  </div> */}
                 </Col>
               </Row>
             </div>

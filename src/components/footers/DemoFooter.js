@@ -22,14 +22,14 @@ function DemoFooter() {
         <Container>
           <Row className="row-grid align-items-center mb-5">
             <Col lg="6">
-              <h3 className="text-primary font-weight-light mb-2">
+              {/* <h3 className="text-primary font-weight-light mb-2">
                 Thank you for supporting us!
               </h3>
               <h4 className="mb-0 font-weight-light">
                 Let's get in touch on any of these platforms.
-              </h4>
+              </h4> */}
             </Col>
-            <Col className="text-lg-center btn-wrapper" lg="6">
+            {/* <Col className="text-lg-center btn-wrapper" lg="6">
               <Button
                 className="btn-icon-only rounded-circle"
                 color="twitter"
@@ -78,7 +78,7 @@ function DemoFooter() {
               <UncontrolledTooltip delay={0} target="tooltip410519243">
                 Star on Github
               </UncontrolledTooltip>
-            </Col>
+            </Col> */}
           </Row>
           <hr></hr>
           <Row className="align-items-center justify-content-md-between">
@@ -89,21 +89,21 @@ function DemoFooter() {
                   href="https://www.creative-tim.com/?ref=adspr-footer"
                   target="_blank"
                 >
-                  Creative Tim
+                  {/* Creative Tim */}
                 </a>
                 .
               </div>
             </Col>
             <Col md="6">
               <Nav className="nav-footer justify-content-end">
-                <NavItem>
+                {/* <NavItem>
                   <NavLink
                     href="https://www.creative-tim.com/?ref=adspr-footer"
                     target="_blank"
                   >
                     Creative Tim
                   </NavLink>
-                </NavItem>
+                </NavItem> */}
                 <NavItem>
                   <NavLink
                     href="https://www.creative-tim.com/presentation?ref=adspr-footer"

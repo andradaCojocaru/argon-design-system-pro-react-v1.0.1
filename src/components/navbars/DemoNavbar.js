@@ -278,21 +278,23 @@ function DemoNavbar(props) {
                   role="button"
                 >
                   <i className="ni ni-tablet-button d-lg-none"></i>
-                  <span className="nav-link-inner--text">App Pages</span>
+                  <span className="nav-link-inner--text">Meniu</span>
                 </DropdownToggle>
                 <DropdownMenu aria-labelledby="navbarDropdownMenuLink">
+                <DropdownItem to="/gaseste-doctor" tag={Link}>
+                    <i className="ni ni-satisfied"></i>
+                    Gaseste un medic
+                  </DropdownItem>
+
                   <DropdownItem to="/account-settings" tag={Link}>
-                    <i className="ni ni-lock-circle-open text-muted"></i>
-                    Account Settings
+                    <i className="ni ni-collection"></i>
+                    Afla povestile altora
                   </DropdownItem>
                   <DropdownItem to="/login-page" tag={Link}>
-                    <i className="ni ni-tv-2 text-danger"></i>
-                    Login Page
+                    <i className="ni ni-single-copy-04"></i>
+                    Povestea ta
                   </DropdownItem>
-                  <DropdownItem to="/register-page" tag={Link}>
-                    <i className="ni ni-air-baloon text-pink"></i>
-                    Register Page
-                  </DropdownItem>
+
                   {/* <DropdownItem to="/reset-page" tag={Link}>
                     <i className="ni ni-atom text-info"></i>
                     Reset Page

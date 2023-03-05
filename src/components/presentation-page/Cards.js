@@ -24,18 +24,16 @@ function Cards() {
             <Row>
               <Col className="mx-auto text-center" lg="5" md="10" xs="12">
                 <h1 className="display-3">
-                  Unconventional cards
+                  Coltul povestilor
                   <span className="text-primary">
-                    One card for every problem
+                    Fiecare experienta conteaza
                   </span>
                 </h1>
                 <p className="lead">
-                  We love cards and everybody on the web seems to. We have gone
-                  above and beyond with options for you to organise your
-                  information. From cards designed for blog posts, to product
-                  cards or user profiles, you will have many options to choose
-                  from. All the cards follow the material principles and have a
-                  design that stands out.
+                  Tot ce traim este unic si irepetabil, Cu toate acestea, chiar si in cele mai neplacute momente ale vietii
+                  sau atunci cand simtim ca nimeni si nimic nu ne poate ajuta, experienta celor din jurul nostru reprezinta un
+                  ajutor nepretuit. Astfel, speram ca mica noastra galerie de momente din viata unor oameni ca tine te vor ajuta
+                  sa te simti mai putin singur si te vor incuraja si te vor ghida spre gasirea solutie potrivite nevoilor tale.
                 </p>
               </Col>
               <Col md="12">
