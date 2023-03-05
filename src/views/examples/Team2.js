@@ -32,11 +32,9 @@ function Team2() {
         <Container>
           <Row>
             <Col className="mx-auto text-center mb-5" md="8">
-              <h3 className="display-3">The Executive Team</h3>
+              <h3 className="display-3">Echipa de medici</h3>
               <h4 className="lead">
-                This is the paragraph where you can write more details about
-                your team. Keep you user engaged by providing meaningful
-                information.
+                Echipa de medici de pe site-ul nostru este atent aleasa pentru a face fata nevoilor fiecaruia dintre noi
               </h4>
             </Col>
           </Row>
@@ -87,8 +85,8 @@ function Team2() {
                   </div>
                 </CardHeader>
                 <CardBody className="pt-0">
-                  <h4 className="display-4 mb-0">Sofia Scarlett</h4>
-                  <p className="lead">UX Designer</p>
+                  <h4 className="display-4 mb-0">Anca Moldovan</h4>
+                  <p className="lead">Medic Ginecolog</p>
                   <div className="table-responsive">
                     <ul className="list-unstyled">
                       <li className="py-1">
@@ -183,8 +181,8 @@ function Team2() {
                   </div>
                 </CardHeader>
                 <CardBody className="pt-0">
-                  <h4 className="display-4 mb-0">Dylan Wyatt</h4>
-                  <p className="lead">Team Lead</p>
+                  <h4 className="display-4 mb-0">Amina Venter</h4>
+                  <p className="lead">Dermatologie</p>
                   <div className="table-responsive">
                     <ul className="list-unstyled">
                       <li className="py-1">
@@ -279,8 +277,8 @@ function Team2() {
                   </div>
                 </CardHeader>
                 <CardBody className="pt-0">
-                  <h4 className="display-4 mb-0">Mila Skylar</h4>
-                  <p className="lead">Content Creator</p>
+                  <h4 className="display-4 mb-0">Lucian Dochia</h4>
+                  <p className="lead">Medicina generala</p>
                   <div className="table-responsive">
                     <ul className="list-unstyled">
                       <li className="py-1">

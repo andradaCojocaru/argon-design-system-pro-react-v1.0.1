@@ -133,7 +133,7 @@ root.render(
         render={(props) => <Team2 {...props}/>}
       />
       <Route
-        path="/medici"
+        path="/povestea-mea"
         exact
         render={(props) => <RegisterPage2 {...props} />}
       />
