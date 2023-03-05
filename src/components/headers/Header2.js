@@ -18,7 +18,7 @@ import {
 function Header2() {
   return (
     <>
-      <header className="header-2 skew-separator">
+      {/* <header className="header-2 skew-separator">
         <Navbar className="bg-white navbar-absolute" expand="lg">
           <Container>
             <div className="navbar-translate">
@@ -142,7 +142,7 @@ function Header2() {
             </Row>
           </Container>
         </div>
-      </header>
+      </header> */}
     </>
   );
 }

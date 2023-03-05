@@ -285,8 +285,9 @@ function DemoNavbar(props) {
                     <i className="ni ni-satisfied"></i>
                     Gaseste un medic
                   </DropdownItem>
-
-                  <DropdownItem to="/account-settings" tag={Link}>
+                  
+                  {/* <DropdownItem to="/account-settings" tag={Link}> */}
+                  <DropdownItem to="/sections" tag={Link}>
                     <i className="ni ni-collection"></i>
                     Afla povestile altora
                   </DropdownItem>
