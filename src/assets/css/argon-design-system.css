@@ -16930,7 +16930,7 @@ hr {
   content: url("data:image/svg+xml;utf8,<svg width='6' height='10' viewBox='0 0 6 10' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M3 0L6 4H0L3 0ZM3 10L0 6H6L3 10Z' fill='%23525f7f'/></svg>");
   margin-left: .25rem; }
 
-.sugereaza-medic .page-header .container {
+.sugereaza-medic, .povestea-mea .page-header .container {
   background-color: #fff;
   border-radius: .25rem;
   box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
@@ -16940,46 +16940,46 @@ hr {
   max-width: 100%;
   min-height: 480px; }
 
-.sugereaza-medic .page-header .page-header-image {
+.sugereaza-medic, .povestea-mea .page-header .page-header-image {
   z-index: 1 !important; }
 
-.sugereaza-medic .footer {
+.sugereaza-medic, .povestea-mea .footer {
   background: #172b4d; }
-  .sugereaza-medic .footer h3,
-  .sugereaza-medic .footer h4,
-  .sugereaza-medic .footer .copyright a {
+  .sugereaza-medic, .povestea-mea .footer h3,
+  .sugereaza-medic, .povestea-mea .footer h4,
+  .sugereaza-medic, .povestea-mea .footer .copyright a {
     color: #fff; }
 
-.sugereaza-medic h1 {
+.sugereaza-medic, .povestea-mea h1 {
   font-weight: bold;
   margin: 0; }
 
-.sugereaza-medic p {
+.sugereaza-medic, .povestea-mea p {
   font-size: 14px;
   font-weight: 100;
   line-height: 20px;
   letter-spacing: 0.5px;
   margin: 20px 0 30px; }
 
-.sugereaza-medic a {
+.sugereaza-medic, .povestea-mea a {
   color: #333;
   font-size: 14px;
   text-decoration: none; }
 
-.sugereaza-medic button {
+.sugereaza-medic, .povestea-mea button {
   transition: transform 80ms ease-in; }
 
-.sugereaza-medic button:active {
+.sugereaza-medic, .povestea-mea button:active {
   transform: scale(0.95); }
 
-.sugereaza-medic button:focus {
+.sugereaza-medic, .povestea-mea button:focus {
   outline: none; }
 
-.sugereaza-medic button.ghost {
+.sugereaza-medic, .povestea-mea button.ghost {
   background-color: transparent;
   border-color: #fff; }
 
-.sugereaza-medic form {
+.sugereaza-medic, .povestea-mea form {
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -16989,13 +16989,13 @@ hr {
   height: 100%;
   text-align: center; }
 
-.sugereaza-medic .form-container .form-group {
+.sugereaza-medic, .povestea-mea .form-container .form-group {
   width: 100%; }
 
-.sugereaza-medic .social-container {
+.sugereaza-medic, .povestea-mea .social-container {
   margin: 20px 0; }
 
-.sugereaza-medic .social-container a {
+.sugereaza-medic, .povestea-mea .social-container a {
   border: 1px solid #dddddd;
   border-radius: 50%;
   display: inline-flex;
@@ -17005,27 +17005,27 @@ hr {
   height: 40px;
   width: 40px; }
 
-.sugereaza-medic .form-container {
+.sugereaza-medic, .povestea-mea .form-container {
   position: absolute;
   top: 0;
   height: 100%;
   transition: all 0.6s ease-in-out; }
 
-.sugereaza-medic .sign-in-container {
+.sugereaza-medic, .povestea-mea .sign-in-container {
   left: 0;
   width: 50%;
   z-index: 2; }
 
-.sugereaza-medic .sign-up-container {
+.sugereaza-medic, .povestea-mea .sign-up-container {
   left: 0;
   width: 50%;
   opacity: 0;
   z-index: 1; }
 
-.sugereaza-medic .container.right-panel-active .sign-in-container {
+.sugereaza-medic, .povestea-mea .container.right-panel-active .sign-in-container {
   transform: translateX(100%); }
 
-.sugereaza-medic .container.right-panel-active .sign-up-container {
+.sugereaza-medic, .povestea-mea .container.right-panel-active .sign-up-container {
   transform: translateX(100%);
   opacity: 1;
   z-index: 5;
@@ -17041,7 +17041,7 @@ hr {
     opacity: 1;
     z-index: 5; } }
 
-.sugereaza-medic .overlay-container {
+.sugereaza-medic, .povestea-mea .overlay-container {
   position: absolute;
   top: 0;
   left: 50%;
@@ -17051,10 +17051,10 @@ hr {
   transition: transform 0.6s ease-in-out;
   z-index: 100; }
 
-.sugereaza-medic .container.right-panel-active .overlay-container {
+.sugereaza-medic, .povestea-mea .container.right-panel-active .overlay-container {
   transform: translateX(-100%); }
 
-.sugereaza-medic .overlay {
+.sugereaza-medic, .povestea-mea .overlay {
   background: #5e72e4;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17067,10 +17067,10 @@ hr {
   transform: translateX(0);
   transition: transform 0.6s ease-in-out; }
 
-.sugereaza-medic .container.right-panel-active .overlay {
+.sugereaza-medic, .povestea-mea .container.right-panel-active .overlay {
   transform: translateX(50%); }
 
-.sugereaza-medic .overlay-panel {
+.sugereaza-medic, .povestea-mea .overlay-panel {
   position: absolute;
   display: flex;
   align-items: center;
@@ -17084,33 +17084,33 @@ hr {
   transform: translateX(0);
   transition: transform 0.6s ease-in-out; }
 
-.sugereaza-medic .overlay-left {
+.sugereaza-medic, .povestea-mea .overlay-left {
   transform: translateX(-20%); }
 
-.sugereaza-medic .container.right-panel-active .overlay-left {
+.sugereaza-medic, .povestea-mea .container.right-panel-active .overlay-left {
   transform: translateX(0); }
 
-.sugereaza-medic .overlay-right {
+.sugereaza-medic, .povestea-mea .overlay-right {
   right: 0;
   transform: translateX(0); }
 
-.sugereaza-medic .container.right-panel-active .overlay-right {
+.sugereaza-medic, .povestea-mea .container.right-panel-active .overlay-right {
   transform: translateX(20%); }
 
 @media (max-width: 767.98px) {
-  .sugereaza-medic form {
+  .sugereaza-medic, .povestea-mea form {
     padding: 0 10px !important; }
-    .sugereaza-medic form > h2 {
+    .sugereaza-medic, .povestea-mea form > h2 {
       line-height: 1.3 !important; } }
 
 @media (max-width: 375px) {
-  .sugereaza-medic h1 {
+  .sugereaza-medic, .povestea-mea h1 {
     font-size: 1.5rem; }
-  .sugereaza-medic .overlay-panel {
+  .sugereaza-medic, .povestea-mea .overlay-panel {
     padding: 0 15px; }
-  .sugereaza-medic .social-container {
+  .sugereaza-medic, .povestea-mea .social-container {
     margin: 10px 0 !important; }
-  .sugereaza-medic form {
+  .sugereaza-medic, .povestea-mea form {
     padding: 30px 10px 0 10px !important; } }
 
 .card-blog {

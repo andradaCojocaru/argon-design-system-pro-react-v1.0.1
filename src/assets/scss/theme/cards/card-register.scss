@@ -1,4 +1,4 @@
-.sugereaza-medic {
+.sugereaza-medic, .povestea-mea {
 
   .page-header {
     .container {
@@ -208,7 +208,7 @@
 }
 
 @include media-breakpoint-down(sm) {
-  .sugereaza-medic {
+  .sugereaza-medic, .povestea-mea {
     form {
       padding: 0 10px !important;
 
@@ -220,7 +220,7 @@
 }
 
 @media (max-width: 375px) {
-  .sugereaza-medic {
+  .sugereaza-medic, .povestea-mea {
     h1 {
       font-size: 1.5rem;
     }

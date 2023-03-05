@@ -4,12 +4,6 @@ import { supabase } from '../../src/supabase';
 
 function ChatGpt() {
   
-
-  // var x = 2;
-  // debugger;
-  // console.log(openai);
-  // openai.api_key = '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';
-  
   const configuration = new Configuration({apiKey: "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"}) ;
   const openai = new OpenAIApi(configuration);
   const [userInput, setUserInput] = useState('');
@@ -18,12 +12,12 @@ function ChatGpt() {
   const handleChange = (event) => {
     setUserInput(event.target.value);
   };
-  const [allSpecialties, setSpecialties] = useState(null);
-  const getSpecializari = async () => {
-    let { data: test, error } = await supabase
-    .from('Specializare')
-    .select("Categorie").then((res)=> chatGptFound());
-  }
+  // const [allSpecialties, setSpecialties] = useState(null);
+  // const getSpecializari = async () => {
+  //   let { data: test, error } = await supabase
+  //   .from('Specializare')
+  //   .select("Categorie").then((res)=> chatGptFound());
+  // }
 
   const chatGptFound = async() => {
     const modelPrompt = `Cauta specializarea medicala care se potriveste cel mai bine: ${userInput}\n{}`;
@@ -47,47 +41,10 @@ function ChatGpt() {
     }
   }
   
-
   const handleSubmit = async (event) => {
-    getSpecializari();
+    //getSpecializari();
     console.log("submit");
     event.preventDefault();
-    // const allSpecialties = ["Ginecologie",
-    // "Dermatologie",
-    // "Pediatrie",
-    // "Urologie",
-    // "Neurologie",
-    //   "Otorinolaringologie(ORL)",
-    //   "Gastroenterologie",
-    //   "Ortopedie",
-    //   "Cardiologie",
-    //   "Oncologie",
-    //   "Chirurgie",
-    //   "Oftalmologie",
-    //   "Medicina generala",
-    //   Medicina interna",
-    //   Pneumologie",
-    //   Boli infectioase",
-    //   Alercologie si Imunologie Clinica",
-    //   Radiologie si Imagistica Medicala",
-    //   Chirurgie plastica",
-    //   Chirurgie vasculara",
-    //   Anestezie si terapie intensiva",
-    //   Endocrinologie",
-    //   Hematologie",
-    //   Psihiatrie",
-    //   Nefrologie",
-    //   Reumatologie",
-    //   Recuperare Medicala",
-    //   Stomatologie",
-    //   Genetica Medicala",
-    //   Chirurgie Pediatrica",
-    //   Anatamoie patologica",
-    //   Neonatologie",
-    //   Neurologie Pediatrica",
-    //   Diabet", Nutritie si Boli Metabolice",
-    //   Geriatrie si Gerontologie",
-    //   Neurochirurgie];
   };
 
   return (

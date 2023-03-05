@@ -18,6 +18,14 @@ import {
 // Core Components
 
 function Team2() {
+  React.useEffect(() => {
+    document.body.classList.add("medici");
+    window.scrollTo(0, 0);
+    document.body.scrollTop = 0;
+    return function cleanup() {
+      document.body.classList.remove("medici");
+    };
+  });
   return (
     <>
       <div className="team-2">

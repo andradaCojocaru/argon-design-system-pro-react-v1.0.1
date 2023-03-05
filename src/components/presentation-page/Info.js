@@ -24,8 +24,7 @@ function Info() {
                   Cauta doctorul de care ai nevoie
                 </p>
                 {/* <Link className="text-primary" to="/index"> */}
-                <Link className="text-primary" to="/sugereaza-medic" tag={Link}>
-                
+                <Link className="text-primary" to="/medici" tag={Link}>
                   Cauta{" "}
                   <i className="ni ni-bold-right text-primary"></i>
                 </Link>
@@ -41,12 +40,7 @@ function Info() {
                 </h6>
                 <p className="description opacity-8">
                   Lasa-te inspirat de povestile oamenilor care au trecut prin experiente asemanatoare
-            
                 </p>
-                <Link className="text-primary" to="/sections">
-                  Citeste experientele altora{" "}
-                  <i className="ni ni-bold-right text-primary"></i>
-                </Link>
               </div>
             </Col>
             <Col lg="4" md="6">
@@ -60,14 +54,10 @@ function Info() {
                 <p className="description opacity-8">
                   Simte-te liber sa povesti prin ceea ce ai trecut
                 </p>
-                <a
-                  className="text-primary"
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  Scrieti povestea{" "}
+                <Link className="text-primary" to="/povestea-mea">
+                Scrieti povestea{" "}
                   <i className="ni ni-bold-right text-primary"></i>
-                </a>
+                </Link>
               </div>
             </Col>
           </Row>
