@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import {Configuration, OpenAIApi} from 'openai';
+import { FormControlLabel } from '@mui/material';
+import Checkbox from 'material-ui/Checkbox';
 
 // reactstrap components
 import {
@@ -38,6 +40,7 @@ function RegisterPage2() {
   const openai = new OpenAIApi(configuration);
   const [userInput, setUserInput] = useState('');
   const [suggestedSpecialty, setSuggestedSpecialty] = useState('');
+  const [snapsToGrid, snapsToGridChecked] = useState('checked');
 
   const handleChange = (event) => {
     setUserInput(event.target.value);
