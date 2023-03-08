@@ -287,7 +287,7 @@ function DemoNavbar(props) {
                   </DropdownItem>
                   <DropdownItem to="/sugereaza-medic" tag={Link}>
                     <i className="ni ni-single-copy-04"></i>
-                    sugereaza un medic
+                    Sugereaza un medic
                   </DropdownItem>
 
                   <DropdownItem to="/account-settings" tag={Link}>

@@ -36,7 +36,7 @@ function RegisterPage2() {
     };
   }, []);
 
-  const configuration = new Configuration({apiKey: "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"}) ;
+  const configuration = new Configuration({apiKey: "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"}) ;
   const openai = new OpenAIApi(configuration);
   const [userInput, setUserInput] = useState('');
   const [suggestedSpecialty, setSuggestedSpecialty] = useState('');
@@ -45,15 +45,13 @@ function RegisterPage2() {
   const handleChange = (event) => {
     setUserInput(event.target.value);
   };
-  // const [allSpecialties, setSpecialties] = useState(null);
-  // const getSpecializari = async () => {
-  //   let { data: test, error } = await supabase
-  //   .from('Specializare')
-  //   .select("Categorie").then((res)=> chatGptFound());
-  // }
+
+  function check() {
+    document.getElementsByClassName("myCheck").checked = true;
+  }
 
   const chatGptFound = async() => {
-    const modelPrompt = `Cauta simptomele care se potrivesc cel mai bine: ${userInput}\n{}`;
+    const modelPrompt = `Cauta cuvintele cheie care se potrivesc cel mai bine: ${userInput}\n{}`;
 
     try {
       const response = await openai.createCompletion({
@@ -68,6 +66,7 @@ function RegisterPage2() {
 
       const suggestedSpecialty = response.data.choices[0].text;
       setSuggestedSpecialty(suggestedSpecialty);
+      //console.log("rezultat", suggestedSpecialty);
       var x = 0;
     } catch (error) {
       console.log(error);
@@ -105,17 +104,12 @@ function RegisterPage2() {
                 </FormGroup>
                 <div className="custom-control custom-control-alternative custom-checkbox">
                   <input
-                    onClick={handleChange}
-                    className="custom-control-input"
+                    onClick={check()}
+                    className="myCheck"
                     id=" customCheckLogin"
                     type="checkbox"
                   ></input>
-                  <label
-                    className="custom-control-label"
-                    htmlFor=" customCheckLogin"
-                  >
                     <span>Posteaza povestea mea</span>
-                  </label>
                 </div>
                 <Button color="primary">Adauga</Button>
               </Form>
@@ -134,17 +128,12 @@ function RegisterPage2() {
                 
                 <div className="custom-control custom-control-alternative custom-checkbox">
                   <input
-                    onClick={handleChange}
-                    className="custom-control-input"
+                    onClick={check()}
+                    className="myCheck"
                     id=" customCheckLogin"
                     type="checkbox"
                   ></input>
-                  <label
-                    className="custom-control-label"
-                    htmlFor=" customCheckLogin"
-                  >
                     <span>Posteaza povestea mea</span>
-                  </label>
                 </div>
                 <Button className="mt-3" color="primary">
                   Adauga

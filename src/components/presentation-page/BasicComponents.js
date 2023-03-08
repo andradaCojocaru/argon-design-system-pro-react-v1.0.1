@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
@@ -21,9 +22,15 @@ function BasicComponents() {
               <p className="lead">
               Experienta personala este una dintre cele mai bune surse de informare. Poveste despre experienta ta si ajuta-i pe cei care sunt in cautarea unui medic potrivit nevoilor acestora
               </p>
+
+              <Link className="text-primary" to="/sugereaza-medic" tag={Link}>
+                  Recomanda un medic{" "}
+                  <i className="ni ni-bold-right text-primary"></i>
+              </Link>
+
             </Col>
             <Col lg="6" md="12">
-              <div className="image-container">
+              {/* <div className="image-container">
                 <img
                   alt="..."
                   className="table-img"
@@ -49,7 +56,7 @@ function BasicComponents() {
                   className="w-100"
                   src={require("assets/img/ill/example-3.svg").default}
                 ></img>
-              </div>
+              </div> */}
             </Col>
           </Row>
         </Container>

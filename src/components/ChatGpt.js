@@ -4,7 +4,7 @@ import { supabase } from '../../src/supabase';
 
 function ChatGpt() {
   
-  const configuration = new Configuration({apiKey: "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"}) ;
+  const configuration = new Configuration({apiKey: "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"}) ;
   const openai = new OpenAIApi(configuration);
   const [userInput, setUserInput] = useState('');
   const [suggestedSpecialty, setSuggestedSpecialty] = useState('');
@@ -12,12 +12,12 @@ function ChatGpt() {
   const handleChange = (event) => {
     setUserInput(event.target.value);
   };
-  // const [allSpecialties, setSpecialties] = useState(null);
-  // const getSpecializari = async () => {
-  //   let { data: test, error } = await supabase
-  //   .from('Specializare')
-  //   .select("Categorie").then((res)=> chatGptFound());
-  // }
+   const [allSpecialties, setSpecialties] = useState(null);
+   const getSpecializari = async () => {
+     let { data: test, error } = await supabase
+     .from('Specializare')
+     .select("Categorie").then((res)=> chatGptFound());
+  }
 
   const chatGptFound = async() => {
     const modelPrompt = `Cauta specializarea medicala care se potriveste cel mai bine: ${userInput}\n{}`;
@@ -42,7 +42,7 @@ function ChatGpt() {
   }
   
   const handleSubmit = async (event) => {
-    //getSpecializari();
+    getSpecializari();
     console.log("submit");
     event.preventDefault();
   };
